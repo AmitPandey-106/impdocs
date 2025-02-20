@@ -515,7 +515,7 @@ class _MyAssignmentsPageState extends State<MyAssignmentsPage> {
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Invalid PDF URL.')),
+        const SnackBar(content: Text('Invalid PDF URL error.')),
       );
     }
   }
